@@ -1,6 +1,6 @@
 {
   "name": "angular-hello-world",
-  "version": "1.0.0",
+  "version": "0.0.0",
   "license": "MIT",
   "scripts": {
     "heroku-postbuild": "ng build --prod",
@@ -14,10 +14,9 @@
   "private": true,
   "dependencies": {
     "@angular/animations": "~11.0.3",
-    "@angular/cli": "~11.0.3",
     "@angular/common": "~11.0.3",
-    "@angular/compiler": "~11.0.3",
-    "@angular/compiler-cli": "~11.0.3",
+    "@angular/cli": "^11.0.3",
+    "@angular/compiler-cli": "^11.0.3",
     "@angular/core": "~11.0.3",
     "@angular/forms": "~11.0.3",
     "@angular/platform-browser": "~11.0.3",
@@ -39,8 +38,9 @@
   },
   "devDependencies": {
     "@angular-devkit/build-angular": "^0.1100.3",
-    "@angular/cli": "~11.0.3",
-    "@angular/compiler-cli": "~11.0.3",
+    "@angular/cli": "^11.0.3",
+    "@angular/compiler-cli": "^11.0.3",
+    "@babel/types": "^7.12.7",
     "@types/jasmine": "~3.6.0",
     "@types/node": "^12.19.8",
     "codelyzer": "^6.0.0",
