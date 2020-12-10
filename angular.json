@@ -127,5 +127,8 @@
       }
     }
   },
-  "defaultProject": "Angular-HelloWorld"
+  "defaultProject": "Angular-HelloWorld",
+  "cli": {
+    "analytics": "d9746252-d086-4e21-8202-bb1620acae09"
+  }
 }
